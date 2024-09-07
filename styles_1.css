@@ -1,0 +1,111 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.language-buttons {
+    margin-top: 10px;
+}
+
+.language-buttons button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.language-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.content {
+    padding: 20px;
+}
+
+.property-details {
+    margin-bottom: 20px;
+}
+
+.property-details p {
+    margin: 5px 0;
+}
+
+.property-map {
+    margin-bottom: 20px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.directions {
+    margin-top: 20px;
+}
+
+.directions input {
+    padding: 10px;
+    width: 60%;
+}
+
+.directions button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.directions button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* WhatsApp button styles */
+.whatsapp-button {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+
+.whatsapp-button a {
+    background-color: #16BE45;
+    color: #fff;
+    border-radius: 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    z-index: 999999;
+    position: absolute;
+    bottom: 20px;
+}
